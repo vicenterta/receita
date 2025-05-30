@@ -56,7 +56,7 @@ li {
   color: #5f564d;
   line-height: 150%;
 }
-li+li{
+li + li {
     margin-top: 8px;
 }
 ol,ul {
@@ -72,7 +72,7 @@ h2{
     line-height: 100%;
     margin-bottom: 24px;
 }
-.Ingredientes li ::marker {
+.Ingredientes li::marker {
     font-size: 12px;
     color: #854632;
 }
@@ -117,10 +117,10 @@ tr + tr td {
 padding-block: 12px;
     }
     tr:nth-of-type(1) th,
-    tr:nth-of-type(1)td {
+    tr:nth-of-type(1) td {
         padding-bottom: 12px;
     }
-    tr:nth-of-type(4)th,
-    tr:nth-of-type(4)td{
+    tr:nth-of-type(4) th,
+    tr:nth-of-type(4)td {
         border: none;
     }
